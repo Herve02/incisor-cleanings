@@ -6,14 +6,18 @@ import Services from './pages/Services';
 import Gallery from './pages/Gallery';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div style={styles.app}>
         <Header />
+         
         <main style={styles.main}>
           <Routes>
+           
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
             <Route path="/gallery" element={<Gallery />} />
