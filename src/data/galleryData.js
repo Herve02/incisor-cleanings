@@ -1,0 +1,66 @@
+export const galleryItems = [
+  {
+    id: 1,
+    service: 'House Cleaning',
+    before: '/Images/Gallery/house-before.jpg',
+    after: '/Images/Gallery/house-before.jpg',
+    caption: 'Complete living room transformation with deep cleaning and organization',
+  },
+  {
+    id: 2,
+    service: 'House Cleaning',
+    before: '/Images/Gallery/kitchen2-before.jpg',
+    after: '/Images/Gallery/kitchen2-after.jpg',
+    caption: 'Kitchen deep cleaning - from greasy to gleaming',
+  },
+  {
+    id: 3,
+    service: 'Sofa Cleaning',
+    before: '/Images/Gallery/sofa-before.jpg',
+    after: '/Images/Gallery/sofa-after.jpg',
+    caption: 'Sofa stain removal and fabric restoration',
+  },
+  {
+    id: 4,
+    service: 'Carpet Cleaning',
+    before: '/Images/Gallery/carpet-before.jpg',
+    after: '/Images/Gallery/carpet-after.jpg',
+    caption: 'Carpet restoration - removing years of dirt and stains',
+  },
+  {
+    id: 5,
+    service: 'Carpet Cleaning',
+    before: '/Images/Gallery/carpet-before1.jpg',
+    after: '/Images/Gallery/carpet-after1.jpg',
+    caption: 'Living room carpet deep cleaning for a fresh look',
+  },
+  {
+    id: 6,
+    service: 'Mattress Cleaning',
+    before: '/Images/Gallery/matress-before.jpg',
+    after: '/Images/Gallery/matress-after.jpg',
+    caption: 'Mattress sanitization and stain removal for better sleep',
+  },
+  {
+    id: 7,
+    service: 'Bathroom Cleaning',
+    before: '/Images/Gallery/bathroom-before.jpg',
+    after: '/Images/Gallery/bathroom-after.jpg',
+    caption: 'Bathroom deep clean - toilet, tiles, and fixtures',
+  },
+
+  {
+    id: 8,
+    service: 'Window Cleaning',
+    before: '/Images/Gallery/window-before.jpg',
+    after: '/Images/Gallery/window-after.jpg',
+    caption: 'Window cleaning for crystal-clear, streak-free glass',
+  },
+  {
+    id: 9,
+    service: 'Car Interior Cleaning',
+    before: '/Images/Gallery/car-threeseats-before.jpg',
+    after: '/Images/Gallery/car-threeseats-after.jpg',
+    caption: 'Complete car interior detailing - seats, carpet, and dashboard',
+  },
+];
